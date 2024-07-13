@@ -233,7 +233,7 @@ h1, h2 {
 
 /*Login*/
 .login .container {
-  background-color: #f0f0f0; /* Light gray background */
+  /* background-color: #f0f0f0;  */
   padding: 20px;
   border-radius: 8px;
 }
@@ -336,8 +336,10 @@ h1, h2 {
   font-size: 14px;
   margin-bottom: 10px;
   margin-top: 20px;
+  background-color: #009ba6;
 }
 
 .volunteerApp button:hover {
   background-color: #8fb5b9;
 }
+

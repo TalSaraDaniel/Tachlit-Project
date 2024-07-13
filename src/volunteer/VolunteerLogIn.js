@@ -79,7 +79,7 @@ function LoginVolunteer() {
                 dir="rtl"
               />
             </div>
-            <button type="submit" className="btn btn-custom w-100 mb-3">התחבר</button>
+            <button type="submit" className="btn btn-custom w-100 mb-3">ברוכים הבאים</button>
           </form>
           {message && <div className="alert alert-custom">{message}</div>}
           <button onClick={handleResetPassword} className="btn btn-secondary w-100 forget-password-btn">שכחת סיסמה?</button>

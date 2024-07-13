@@ -13,6 +13,7 @@ import './styles.css';
 import logo from './images/logo.png';
 import image1 from './images/image1.jpg'
 
+
 const Home = () => (
   <div>
     <img

@@ -20,6 +20,8 @@ import FilterSidebar from './FilterSidebar'; // Import the new FilterSidebar com
 import Select from 'react-select'; // Import react-select for dropdowns
 import '@fontsource/rubik';
 import logo from '../images/logo.png';
+import { slide as Menu } from 'react-burger-menu'; // ייבוא react-burger-menu
+
 
 
 const getColumnDisplayName = (columnName) => {
@@ -448,6 +450,8 @@ function AdminMain() {
           style={{ cursor: 'pointer' }}
         />
         </div>
+
+        
         <div className="navbar-buttons">
           <button onClick={openModal} className="btn btn-custom">שנה סיסמה</button>
           <button onClick={handleLogout} className="btn btn-custom">התנתק</button>
@@ -455,6 +459,8 @@ function AdminMain() {
           <button onClick={openSignUpModal} className="btn btn-custom">הוספת מנהל חדש</button>
           )}
         </div>
+
+        
       </div>
       <div className="admin-container">
         <h1 className="text-center my-4">ברוכים הבאים לדף מנהל</h1>
@@ -678,17 +684,6 @@ function AdminMain() {
       </Modal>
 
 
-
-
-
-
-
-
-
-
-
-
-
         <Modal
           isOpen={modalIsOpen}
           onRequestClose={closeModal}
@@ -744,12 +739,13 @@ function AdminMain() {
           <SignUpNewAdmin closeModal={closeSignUpModal} />
         </Modal>
 
-        <div className='pageEnd'>
-          <h2>חזרה לעמוד הבית</h2>
-        </div>
+        
       </div>
     </div>
   );
 }
 
 export default AdminMain;
+
+
+

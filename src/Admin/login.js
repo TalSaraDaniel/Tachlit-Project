@@ -53,7 +53,7 @@ function Login() {
         <div className="container mt-5">
         <div className="row justify-content-center align-items-center">
         <div className="col-md-6 col-lg-4">
-          <h2 className="text-center mb-4">התחברות</h2>
+          <h2 className="text-center mb-4">ברוכים הבאים</h2>
           <form onSubmit={handleLogin}>
             <div className="mb-3">
               <label htmlFor="email" className="form-label">שם משתמש</label>
