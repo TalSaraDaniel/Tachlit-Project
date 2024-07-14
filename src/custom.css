@@ -343,3 +343,27 @@ h1, h2 {
   background-color: #8fb5b9;
 }
 
+<<<<<<< HEAD
+=======
+.passwordVolUpdate h1 {
+  color: #009ba6;
+  font-size: xx-large;
+  font-weight: bold;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
+.passwordVolUpdate button {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.passwordVolUpdate button:hover {
+  background-color: #8fb5b9;
+}
+>>>>>>> bd831d9f51f1e83167f79468ca7d20ae203dbc9f
